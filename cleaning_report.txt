@@ -1,0 +1,9 @@
+Raw file: 16146 rows x 80 columns, years 1966-2017
+Replaced 13132 values of -1 (missing marker) with NULL
+Duplicate district-year rows: 0
+29 crops / crop groups found; long table before filtering: 468234 rows
+Oilseeds area/production rebuilt from component crops for 4029 empty/zero values
+Yield calculated from production/area for 3082 rows
+Dropped 145239 rows where area and production are both empty/zero (crop not grown)
+Final long table: 322995 rows, 311 districts, 20 states, years 1966-2017
+Database written to agri.db; Power BI files written to powerbi/
